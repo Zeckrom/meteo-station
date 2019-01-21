@@ -1,0 +1,20 @@
+{
+  "name": "station-user",
+  "plural": "station-users",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "role": {
+      "type": "string",
+      "required": true,
+      "default": "standard"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

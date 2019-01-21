@@ -1,0 +1,27 @@
+{
+  "name": "weather-data",
+  "plural": "weather-data",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "from": {
+      "type": "date",
+      "required": true
+    },
+    "to": {
+      "type": "date",
+      "required": true
+    },
+    "data": {
+      "type": "object",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
